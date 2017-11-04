@@ -21,10 +21,10 @@ void solve_helper(int sudoku[9][9],int i,int j) {
     }
 
     if(sudoku[i][j]) {
-            if(j<8)
-                solve_helper(sudoku,i,j+1);
-            else
-                solve_helper(sudoku,i+1,0);
+        if(j<8)
+            solve_helper(sudoku,i,j+1);
+        else
+            solve_helper(sudoku,i+1,0);
     }
     else {
         for(int n=1;n<=9;n++) {
