@@ -1,5 +1,5 @@
 Sudoku Solver
-=======================================
+=============
 
 A C program for solving Sudoku puzzles using Backtracking.
 
